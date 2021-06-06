@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="imagem/png" href="../img/icone.png" />
+    <script src="js.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;1,600&display=swap" rel="stylesheet">
+    <title>Dalvanir viera</title>
+    <Style>
+*{margin: auto;padding: auto;
+}
+
+body{
+    background-color: #fff;
+    outline: hidden;
+}
+header a{
+    color: white;
+    font-weight: none;
+    text-decoration: none;
+}
+header{
+   width: 100%;
+    color: inherit;
+  
+}
+.oi{
+    display: none;
+}
+.banner{
+    background: url("banner.jpg");
+    width: 100%;
+    height: 250px;
+  text-align: center;
+   align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
+    
+}
+.a{
+    color: white;
+    padding: 2%;
+}
+.slide img{
+    width: 295px;
+}
+
+.some{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+header i{
+    color: white;
+    outline: none;
+    margin-top: 5%;
+}
+#drop{
+    width: 100%;
+    height: auto;
+    display: none;
+    margin-top: 12%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.219);
+
+    position: absolute;
+}
+header nav button{
+    width: 100%;
+    height: auto;
+    background: inherit;
+    list-style: none;
+    color: white;
+    border: none;
+    padding: 2%;
+    font-size: 1.2em;
+    text-align: left;
+    justify-content: start;
+    
+}
+header nav button:hover{
+    background: white;
+    color: #034078;
+    transition: 1s;
+}
+img{
+    width: 100%;
+    margin: 0;
+}
+.contener{
+    width: 100%;
+    height: auto;
+    background-color: #09bc8a;
+    margin: auto;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+}
+.contener2{
+    width: 100%;
+    height: auto;
+    background-color: #00a5cf;
+    margin: auto;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+
+    
+}
+
+.curriculo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  background-color: #09bc8a;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2em;
+  
+}
+.contener3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  background-color: #09bc8a;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+  
+}
+.contener4{
+    width: 100%;
+    height: auto;
+    background-color: #00a5cf;
+    margin: auto;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.projetos img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.projetos{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.curriculo i{
+    font-size: 45px;
+    color: white;
+    margin-top: 10px;
+}
+.Np{
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: -5px;
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(58, 55, 55);
+    text-align: center;
+    color: white;
+}
+.redes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+}
+.redes i{
+    margin: 10px;
+    color: white;
+}
+.redes i:hover{
+color: green;
+}
+footer a{
+    color: white;
+
+}
+footer a:hover{
+    color: green;
+}
+.slide{
+    width: 320px;
+    height: 200px;
+    overflow-y:hidden;
+    display: flex;
+
+}
+@media  screen and (min-width: 490px) {
+    
+    .slide{
+        width: 400px;
+        height: 300px;
+        overflow-y:hidden;
+        display: flex;
+    
+    }
+    .slide img{
+        width: 380px;
+    }
+}
+@media  screen and (min-width: 590px) {
+    .banner{
+        height: 270px;
+    }
+    #drop{
+        margin-top: 10%;
+    }
+    .slide{
+        width: 400px;
+        height: 300px;
+        overflow-y:hidden;
+        display: flex;
+    
+    }
+}
+@media  screen and (min-width: 720px) {
+    .banner{
+        height: 290px;
+    }
+    #drop{
+        margin-top: 10%;
+    }
+    .slide{
+        width: 400px;
+        height: 300px;
+        overflow-y:hidden;
+        display: flex;
+    
+
+    }
+  
+    .projetos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .projetos img{
+        margin-right: 10px;
+        width: 250px;
+        
+    }
+    .Np{
+        margin-right: 10px;
+        width: 250px;
+    }
+   
+}
+@media  screen and (min-width: 760px) {
+    .banner{
+        height: 300px;
+    }
+    #drop{
+        margin-top: 9%;
+    }
+    .slide{
+        width: 560px;
+        height: 400px;
+        overflow-y:hidden;
+        display: flex;
+    
+    }
+
+.slide img{
+    width: 520px;
+}
+}
+@media  screen and (min-width: 850px) {
+    .banner{
+        height: 350px;
+    }
+    #drop{
+        margin-top: 7%;
+    }
+    .slide{
+        width: 700px;
+        height: 400px;
+        overflow-y:hidden;
+        display: flex;
+    
+    }
+    .slide img{
+        width: 650px;
+    }
+}
+@media  screen and (min-width: 1140px) {
+    .banner{
+        height: 360px;
+    }
+    #drop{
+        margin-top: 7%;
+    }
+    .slide{
+        width: 560px;
+        height: 400px;
+        overflow-y:hidden;
+        display: flex;
+    
+    }
+}
+@media  screen and (min-width: 1200px){
+    .some{
+        display: none;
+    }
+    .banner{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .oi{
+        display: flex;
+        position: absolute;
+       right: 70px;
+       
+    }
+    .oi button{
+        margin-right: 30px;
+        width: 200px;
+        background: inherit;
+        border: none;
+        color: white;
+        font-size: 1.2em;
+        
+    }
+    .oi button:hover{
+        color: black;
+    }
+    .slide{
+        width: 100%;
+        height: 500px;
+       
+        display: flex;
+        margin: auto;
+    
+    }
+    .slide img{
+        width: 33%;
+        margin-right: 0.5%;
+        
+    }
+    .slide img:last-child{
+        margin-right: 0;
+    }
+    .a{
+        padding: 5px;
+    }
+  .vira{
+      display: flex;
+  }
+  .projetos img{
+    margin-right: 10px;
+    width: 350px;
+    
+}
+.Np{
+    margin-right: 10px;
+    width: 350px;
+}
+footer{
+    font-size: 1.2em;
+}
+footer i{
+    font-size: 30px;
+}
+}
+    </Style>
+     <script>
+      function myFunction() {
+    
+    var x = document.getElementById("drop");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+      x.style.transition = "1s";
+    } else {
+      x.style.display = "flex";
+      x.style.transition = "5s";
+    }
+    
+}
+function myFunction2(){
+  var S = document.getElementById("drop");
+    if(S.style.display === "none"){
+      S.style.display = "flex";
+    }else{
+      S.style.display = "none";
+    }
+}
+    </script>
+</head>
+<body>
+   <header>
+     
+                <div class="some">
+                    <div class="center">
+               <a href="javascript:void(0);" onclick="myFunction()"  id="tcore"><i class="fa fa-bars" ></i></a></div></div>
+               <nav id="drop">
+             
+               <a href="#inicio" > <button onclick="myFunction2()">Inicio</a></button>
+               <a href="#curriculo" > <button onclick="myFunction2()">Currículo</a></button>
+                <a href="#projetos" > <button onclick="myFunction2()">Projetos</a></button>
+                  <a href="#contato" > <button onclick="myFunction2()">Contato</a></button>
+                 </nav>
+                 <div class="oi">
+                  <a href="#inicio" > <button>Inicio</a></button>
+                  <a href="#curriculo" >  <button>Currículo</a></button>
+                  <a href="#projetos" >  <button>Projetos</a></button>
+                    <a href="#contato" > <button>Contato</a></button>
+                 </div>
+                 <div class="banner">
+                
+                   <div class="a">
+                  <h2>Dalvanir Viera da Silva</h2>
+                  <h3>Tecnologia da informação(T.i) </h3> 
+                </div>
+                 
+                 </div>
+                
+                </header>
+    <main>
+      <div class="slide">
+      <img src="dra.jpeg" alt="">  <img src="zeroum.jpeg" alt=""> <img src="eng.jpeg" alt="">
+      </div>
+
+      <div class="curriculo" id="curriculo">
+      <h3>Currículo</h3>
+      <h4><a href="#">Download Cv</a></h4>
+      <br>
+      <div class="vira">
+      <div class="contener">
+      
+        
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+     
+        <br>
+        <br>
+        <h3>Formação acadêmica</h3>
+          
+        <p>Analise e desenvolvimento de sistemas(T.i)</p>
+        <br>
+        <h4>Cursos:</h4>
+        <li>Automação de testes - Udemy</li>
+        <li>Banco de dados Sql e mysql- Udemy</li>
+        <br>
+        <h4>Certificação</h4>
+        <p>Itil foundation </p>
+<br>
+      </div>
+      <div class="contener2">
+        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+        <br>
+        <br>
+        <h3>Habilidade Profissionais</h3>
+        
+        <br>
+        <h4>T.i e Programação</h4>
+        <li>Teste de Software</li>
+        <li>Sql (Básico)</li>
+        <li>MySql (Básico)</li>
+        <li>C++ (Básico)</li>
+        <li>C# (Básico)</li>
+        <br>
+        <h4>Habilidades Escritório</h4>
+        <li>Word (Intermediário)</li>
+        <li>Excel (Básico)</li>
+        <li>PowerPoint (Básico)</li>
+        <br>
+        <h4>Idiomas </h4>
+        <li>Inglês Cursando</li>
+      <br>
+      </div>
+      <div class="contener3">
+        <i class="fa fa-briefcase" aria-hidden="true"></i>
+        <h3>Experiência</h3><br>
+        <p><h4> Empresa: Thomas Greg and sons(Atual) </h4><br>Cargo: Service desk</p><br>
+        <p><h4>Empresa: Atento Brasil S/a </h4><br>Cargo: Suporte técnico</p>
+      </div>
+  
+    </div>
+    <div class="contener4" id="projetos">
+      <h3>Projetos</h3>
+      <div class="projetos">
+        <div class="P1">
+        <a href="#"><img src="projectone.jpg" alt=""></a>
+        <div class="Np"><H3>Nome Projeto</H3></div>
+      </div>
+      <div class="p2">
+        <a href="#"><img src="projectone.jpg" alt=""></a>
+        <div class="Np"><H3>Nome Projeto</H3></div>
+      </div>
+      </div>
+    </div>
+      </div>
+    </main>
+    <footer>
+      <h1 class="font1">Contato</h1>
+      <div class="redes" id="contato">
+      <a href="https://www.linkedin.com/in/dalvanir-viera-da-silva-7715a5191"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+         
+         
+      </div>
+      <div class="font3">
+        <a href="mailto:fgbrancalhao@gmail.com"><i class="fa fa-share" aria-hidden="true">Email</i></a> 
+        <br><a href="https://api.whatsapp.com/send?phone=5511964265637"
+        target="_blank"><i class="fa fa-whatsapp" aria-hidden="true">whatsapp</i></a>
+     </div>
+    </footer>
+
+</body>
+</html>
